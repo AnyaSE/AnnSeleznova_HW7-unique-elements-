@@ -3,7 +3,7 @@ const arrayTwo = ['Beijin', 'Singapore', 'Warsaw', 'Odessa', 'Astana'];
 
 const uniqueArray = [];
 
-function uniqueElements(array){
+function uniqueElements(){
     if (Array.isArray(arrayOne) && Array.isArray(arrayTwo)){
         for (let i = 0; i < arrayOne.length; i++) {
             const element = arrayOne [i];
